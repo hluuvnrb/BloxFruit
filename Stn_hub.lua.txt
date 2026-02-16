@@ -9,7 +9,6 @@ if setfpscap then
         Text = "FPS Already!",
         Duration = 5,
         Button1 = "Okay"
-        MinimizeKey = Enum.KeyCode.LeftControl
     })
     warn("FPS Already!")
 else
@@ -18,7 +17,6 @@ else
         Text = "Your exploit does not support setfpscap.",
         Duration = 5,
         Button1 = "Okay"
-        MinimizeKey = Enum.KeyCode.LeftControl
     })
     warn("Your exploit does not support setfpscap.")
 end
