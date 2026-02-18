@@ -1,4 +1,3 @@
---DEOBFUSCATED BY _NYZLINH
 local L_1_ = {}
 L_1_[2] = table["concat"]
 do
