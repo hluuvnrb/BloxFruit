@@ -2210,8 +2210,8 @@ L_1_[16] = (loadstring(game:HttpGet(L_1_[2]({
 	"s/main/UiRedzHub.lua"
 }))))()
 L_1_[38] = L_1_[16]:MakeWindow({
-	["Title"] = "Gravity Hub";
-	["SubTitle"] = "by realtboy",
+	["Title"] = "Shadow Hub";
+	["SubTitle"] = "by HLuuVN",
 	["SaveFolder"] = "redz library V5.json"
 })
 L_1_[87] = Instance["new"]("ScreenGui")
@@ -2295,111 +2295,111 @@ L_1_[41]["MouseButton1Click"]:Connect(function()
 end)
 L_1_[93] = {
 	["Info"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Home";
+		["Title"] = "Thông tin";
 		["Icon"] = "Info"
 	});
 	["Main"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Farming";
+		["Title"] = "Cày";
 		["Icon"] = L_1_[2]({
 			"rbxassetid://7733960";
 			"981"
 		})
 	}),
 	["Settings"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Setting",
+		["Title"] = "Cài đặt",
 		["Icon"] = L_1_[2]({
 			"rbxassetid://7734053";
 			"495"
 		})
 	});
 	["Fish"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Fishing";
+		["Title"] = "Câu cá";
 		["Icon"] = L_1_[2]({
 			"rbxassetid://1276640";
 			"59821666"
 		})
 	}),
 	["Quests"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Quest And Item";
+		["Title"] = "N.V và Item";
 		["Icon"] = L_1_[2]({
 			"rbxassetid://1307562",
 			"2619"
 		})
 	}),
 	["SeaEvent"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Sea Event";
+		["Title"] = "Sự kiện biển";
 		["Icon"] = "waves"
 	});
 	["Race"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Mirage And Race",
+		["Title"] = "Đảo Mirage/Tộc",
 		["Icon"] = L_1_[2]({
 			"rbxassetid://1116288",
 			"9532"
 		})
 	}),
 	["Prehistoric"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Volcano Event";
+		["Title"] = "Đảo Volcano";
 		["Icon"] = "tent"
 	}),
 	["Esp"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Stats And Esp";
+		["Title"] = "Chỉ số/Esp";
 		["Icon"] = L_1_[2]({
 			"rbxassetid://7040410";
 			"130"
 		})
 	});
 	["Raids"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Fruit And Raid";
+		["Title"] = "Trái/Raid";
 		["Icon"] = L_1_[2]({
 			"rbxassetid://1115598";
 			"6081"
 		})
 	}),
 	["Combat"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Local Player",
+		["Title"] = "Người chơi",
 		["Icon"] = L_1_[2]({
 			"rbxassetid://1307565",
 			"1575"
 		})
 	}),
 	["Travel"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Teleport";
+		["Title"] = "Dịch chuyển";
 		["Icon"] = "locate"
 	});
 	["Shop"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Shopping";
+		["Title"] = "Cửa hàng";
 		["Icon"] = L_1_[2]({
 			"rbxassetid://6031265",
 			"976"
 		})
 	}),
 	["Misc"] = L_1_[38]:MakeTab({
-		["Title"] = "Tab Miscellaneous",
+		["Title"] = "Khác",
 		["Icon"] = L_1_[2]({
 			"rbxassetid://1070978",
 			"3577"
 		})
 	})
 }
-L_1_[93]["Info"]:AddSection("Information")
+L_1_[93]["Info"]:AddSection("Thông tin")
 L_1_[93]["Info"]:AddDiscordInvite({
-	["Name"] = "Gravity Hub",
+	["Name"] = "HLuuVN",
 	["Description"] = L_1_[2]({
-		"Release Date [12/10/";
-		"2025]"
+		"Hack ";
+		"Blox Fruit"
 	}),
 	["Logo"] = L_1_[2]({
-		"rbxassetid://7367578",
-		"7844710"
+		"rbxassetid://1223258",
+		"62608617"
 	}),
 	["Invite"] = L_1_[2]({
-		"https://discord.gg/d",
-		"vqDj9tum4"
+		"https://youtube.com/@",
+		"HLuuVNGaming"
 	})
 })
-L_1_[93]["Info"]:AddSection("Status Server")
+L_1_[93]["Info"]:AddSection("Trạng thái server")
 Time = L_1_[93]["Info"]:AddParagraph({
-	["Title"] = "Time Zone";
+	["Title"] = "Múi giờ";
 	["Content"] = ""
 })
 function UpdateOS()
@@ -2434,7 +2434,7 @@ spawn(function()
 	end
 end)
 Timmessss = L_1_[93]["Info"]:AddParagraph({
-	["Title"] = "Time",
+	["Title"] = "Thời gian",
 	["Content"] = ""
 })
 function UpdateTime()
@@ -2452,8 +2452,8 @@ spawn(function()
 	end
 end)
 Miragecheck = L_1_[93]["Info"]:AddParagraph({
-	["Title"] = "Mirage Island";
-	["Content"] = "Status: "
+	["Title"] = "Đảo bí ẩn";
+	["Content"] = "Trạng thái: "
 })
 L_1_[77] = ""
 spawn(function()
@@ -2471,8 +2471,8 @@ spawn(function()
 	end)
 end)
 Kitsunecheck = L_1_[93]["Info"]:AddParagraph({
-	["Title"] = "Kitsune Island",
-	["Content"] = "Status: "
+	["Title"] = "Đảo Kitsune",
+	["Content"] = "Trạng thái: "
 })
 spawn(function()
 	local L_193_ = {}
