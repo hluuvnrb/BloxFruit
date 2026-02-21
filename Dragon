@@ -1,6 +1,6 @@
-getgenv().ScriptTitle = "Dragon Hub"
+getgenv().ScriptTitle = "No1 blox fruit"
 getgenv().ScriptSubTitle = "Blox Fruit"
-getgenv().ScriptImage = "https://i.ibb.co/HD8zhxD2/25m.jpg"
-getgenv().ScriptAuthorName = "By HLuuVN"
-getgenv().ScriptAuthorSubTitle = "Discord @hluuvn"
+getgenv().ScriptImage = "https://i.ibb.co/ynDWfF8G/code-blox-fruit-update-17.png"
+getgenv().ScriptAuthorName = "By Tuananhsuppor"
+getgenv().ScriptAuthorSubTitle = "Discord @tuananhdz999"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
